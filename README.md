@@ -49,15 +49,15 @@ A full-stack PHP-based web application for uploading, managing, and sharing acad
 
 ## 📂 Project Structure
 Student-Resource-Portal/
-│
-├── auth/ # Login, register, logout pages
-├── admin/ # Admin dashboard pages
-├── dashboard/ # User dashboard
-├── classes/ # Core PHP classes (User, Resource, Database)
-├── includes/ # Header, footer, auth guards, sidebar
-├── uploads/ # Uploaded files storage
-├── config/ # Database configuration (if applicable)
-└── index.php # Landing page
+
+- /auth/ # Login, register, logout pages
+- /admin/ # Admin dashboard pages
+- /dashboard/ # User dashboard
+- /classes/ # Core PHP classes (User, Resource, Database)
+- /includes/ # Header, footer, auth guards, sidebar
+- /uploads/ # Uploaded files storage
+- /config/ # Database configuration (if applicable)
+- index.php # Landing page
 
 
 ---
@@ -113,13 +113,8 @@ Handles:
 
 ## ⚙️ Planned Improvements
 
-- Convert admin actions to POST (replace GET queries)
-- Add CSRF protection
-- Email verification workflow (improved version)
-- Advanced search & filtering (users + resources)
 - Pagination for large datasets
 - Soft delete instead of hard delete
-- Admin analytics dashboard
 
 ---
 
