@@ -80,7 +80,7 @@ try {
                 <div class="profile-card text-center">
 
                     <img
-                        src="../uploads/profile-images/<?= htmlspecialchars($user->profile_image) ?>"
+                        src="../storage/profile-images/<?= htmlspecialchars($user->profile_image) ?>"
                         alt="Profile Image"
                         class="profile-image">
 
